@@ -30,11 +30,11 @@ labels = ["Hello", "Cancel", "Help-Cleaner", "Help-Technician","Yes"]
 confidence_threshold = 0.99
 
 # Twilio credentials and client initialization
-account_sid = 'AC4a5e39d6743c92e2e3d37b523a85e2e7'
-auth_token = 'bf0faa56ff1cd4d0748c5d35b35fcf75'
+account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 twilio_client = Client(account_sid, auth_token)
-from_phone = '+1 567 401-5359'
-to_phone = '+91 9623520301'
+from_phone = '+1 567 xx-xxxx'
+to_phone = '+91 9623xx xxxx'
 
 # Path to the authorized people's images and names
 authorized_people = {
